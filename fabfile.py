@@ -241,7 +241,9 @@ def release(ctx):
     pkgbuild(ctx)
     pathname = f'dist/{project_name}-{version.__version__}.tar.gz'
 
-    # docker_exec(f'twine upload -u {pypi_auth["user"]} -p {pypi_auth["pass"]} {pathname}')
+    # upload to pypi
+    from secrets import pypi_auth
+    docker_exec(f'twine upload -u {pypi_auth["user"]} -p {pypi_auth["pass"]} {pathname}')
 
     # Remove temporary files
     clean(ctx)
