@@ -6,12 +6,8 @@ from fabric import task
 
 import version
 
-# make sure that we import the awsflow package from this directory
+# make sure that we import the package from this directory
 sys.path = ["."] + sys.path
-# from config import TCP_PORT_PROXY
-
-# disable "Done." output
-# fabric.state.output.status = False
 
 # Initialise project directory and name
 project_dir = os.path.abspath(os.path.dirname(__file__))
