@@ -1,0 +1,5 @@
+pattern,label
+^.*PAYPAL \*VODAFONEITA.*$,mobile
+^.*PAYPAL \*TELECOMITAL.*$,mobile
+^.*NETFLIX.*$,netflix
+^RICARICA BONIFICO$,top-up

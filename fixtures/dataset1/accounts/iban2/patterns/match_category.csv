@@ -1,0 +1,4 @@
+pattern,label
+^Pagamento tramite POS .* Presso: (HOFBRAEUHAUS AM PLATZL|ALTER WIRT MOOSACH).*$,restaurant
+^Bonifico su estero Coordinate benef: DE81700420480722694510.*$,rent-flat
+^Imposte e tasse$,bank-fee

@@ -1,0 +1,6 @@
+﻿DATA;VALUTA;DARE;AVERE;;DESCRIZIONE OPERAZIONE;CAUSALE ABI;
+01/01/2020;27/03/2019;5,00;;EUR;Pagamento tramite POS POS MAESTRO xyz;43;
+03/01/2020;31/03/2019;24,321;;EUR;Imposte e tasse;19;
+05/01/2020;04/04/2019;9.935,679;;EUR;Bonifico su estero Coordinate benef: xyz A fav: xyz;ZL;
+08/01/2020;27/03/2019;10,00;;EUR;Pagamento tramite POS POS MAESTRO xyz;43;
+08/01/2020;31/03/2019;30,00;;EUR;Imposte e tasse;19;
