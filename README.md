@@ -11,6 +11,12 @@ With MetaCash you can:
 * Explore transactions with an interactive web dashboard and as data frames for for deep dives
 * Manipulate transactions safely with *transaction frames*
 
+## Project status
+
+* Used extensively by author
+* Documentation needs improvement
+* Contributions welcome! see *Contributing* section
+
 ## Screenshots
 
 ### Selecting target period
@@ -83,3 +89,11 @@ jupyter nbextension enable --py widgetsnbextension
 apt install npm build-essential
 jupyter labextension install @jupyter-widgets/jupyterlab-manager@2.0
 ```
+
+# Contributing
+
+1. Fork it
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Create a new Pull Request
