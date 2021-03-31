@@ -13,8 +13,13 @@ With MetaCash you can:
 
 ## Screenshots
 
-* ![Selecting target period](/screenshots/s1.png?raw=true)
-* ![Exploring transactions](/screenshots/s2.png?raw=true)
+### Selecting target period
+
+![Selecting target period](/screenshots/s1.png?raw=true)
+
+### Exploring transactions
+
+![Exploring transactions](/screenshots/s2.png?raw=true)
 
 ## Transaction frames
 
