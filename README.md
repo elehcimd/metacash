@@ -11,6 +11,11 @@ With MetaCash you can:
 * Explore transactions with an interactive web dashboard and as data frames for for deep dives
 * Manipulate transactions safely with *transaction frames*
 
+## Screenshots
+
+* ![Selecting target period](/screenshots/s1.png?raw=true)
+* ![Exploring transactions](/screenshots/s2.png?raw=true)
+
 ## Transaction frames
 
 Transaction frames are Pandas data frames where each row represents a transaction with these columns:
