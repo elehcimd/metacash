@@ -26,9 +26,9 @@ Transaction frames are Pandas data frames where each row represents a transactio
 The first and records are of type `ib` and `fb`, respectively. The other intermediate records are of type `t`.
 The first and last records, as well as the rolling `balance`, ensure consistency and completeness with merge operations.
 
-# Setting up the local environment
+## Setting up the local environment
 
-# MacOS
+### MacOS
 
 Install `pyenv`
 
@@ -57,7 +57,7 @@ if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -
 * Update pip: `pip install --upgrade pip`
 * Install packages: `pip install -r requirements.txt`
 
-# Fabric commands
+### Fabric commands
 
 * `fab build`: build image
 * `fab start`: start image
