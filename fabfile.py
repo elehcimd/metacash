@@ -243,7 +243,7 @@ def release(ctx):
 
     # upload to pypi
     from secrets import pypi_auth
-    docker_exec(f'twine upload -u {pypi_auth["user"]} -p {pypi_auth["pass"]} {pathname}')
+    docker_exec(ctx, f'twine upload -u {pypi_auth["user"]} -p {pypi_auth["pass"]} {pathname}')
 
     # Remove temporary files
     clean(ctx)
